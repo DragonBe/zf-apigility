@@ -1,0 +1,3 @@
+[submodule "vendor/zfdemo"]
+	path = vendor/zfdemo
+	url = https://github.com/in2it/zfdemo.git
