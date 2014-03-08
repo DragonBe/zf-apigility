@@ -34,5 +34,7 @@ if (file_exists(ZF2APP_PATH . '/config/development.config.php')) {
     $appConfig = Zend\Stdlib\ArrayUtils::merge($appConfig, include ZF2APP_PATH . '/config/development.config.php');
 }
 
+require_once 'vendor/zfdemo/zf1for2.php';
+
 // Run the application!
 Zend\Mvc\Application::init($appConfig)->run();

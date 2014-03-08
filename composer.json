@@ -41,7 +41,8 @@
         "zfcampus/zf-oauth2": "~1.0-dev",
         "zfcampus/zf-rest": "~1.0-dev",
         "zfcampus/zf-rpc": "~1.0-dev",
-        "zfcampus/zf-versioning": "~1.0-dev"
+        "zfcampus/zf-versioning": "~1.0-dev",
+        "zendframework/zendframework1": "1.12.5"
     },
     "require-dev": {
         "zendframework/zftool": "dev-master",
